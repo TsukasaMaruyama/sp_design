@@ -1,0 +1,158 @@
+body {
+    margin:0;
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+}
+
+#main {
+    height: 100%;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background: red;
+    /*border-bottom: 3px solid grey;*/
+    display: flex;
+}
+
+.logoContainer {
+    width: 300px;
+    height: 100%;
+    position: relative;
+}
+
+.logoContainer__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.card {
+    display: flex;
+    padding: 30px;
+    border-bottom: 3px gray solid;
+}
+
+.imageContainer {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.imageContainer__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+}
+
+.infoContainer {
+    width: 100%;
+}
+
+.infoHeader {
+    margin-bottom: 20px;
+}
+
+.infoHeader__name {
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 30px;
+    font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+.infoHeader__time {
+    font-size: 45px;
+    color: grey;
+}
+
+.infoContainer__body {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.infoContainer__image {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+
+/*ハンバーガー*/
+
+.hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 140px; /* クリックしやすいようにちゃんと幅を指定する */
+    height: 140px; /* クリックしやすいようにちゃんと高さを指定する */
+    cursor: pointer;
+    z-index: 300;
+}
+.hamburger__line {
+    position: absolute;
+    left: 11px;
+    width: 100px;
+    height: 5px;
+    background-color: #111;
+    transition: all .6s;
+}
+.hamburger__line--1 {
+    top: 40px;
+}
+.hamburger__line--2 {
+    top: 70px;
+}
+.hamburger__line--3 {
+    top: 100px;
+}
+
+.nav-open .global-nav {
+    right: 0;
+}
+.nav-open .black-bg {
+    opacity: .8;
+    visibility: visible;
+}
+.nav-open .hamburger__line--1 {
+    transform: rotate(45deg);
+    top: 65px;
+}
+.nav-open .hamburger__line--2 {
+    width: 0;
+    left: 50%;
+}
+.nav-open .hamburger__line--3 {
+    transform: rotate(-45deg);
+    top: 65px;
+}
+
+.sidemenu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #ffffffaa;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidemenu__inner {
+    margin: 50px;
+}
+
+
+
