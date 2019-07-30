@@ -6,8 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../obniz/first_obniz/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../obniz/first_obniz/obniz.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../obniz/hatena.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Gemfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Gemfile.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
@@ -26,6 +24,9 @@
       <change beforePath="$PROJECT_DIR$/../models.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/assets/stylesheets/bootstrap.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/assets/stylesheets/shopping_cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp.css" beforeDir="false" afterPath="$PROJECT_DIR$/sp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vendor/bundle/bin/coderay" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../vendor/bundle/bin/dotenv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../vendor/bundle/bin/nokogiri" beforeDir="false" />
@@ -8768,8 +8769,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="606">
-                  <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -8781,8 +8785,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sp.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="143" column="18" lean-forward="true" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+                <state relative-caret-position="402">
+                  <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -8799,7 +8803,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -8864,12 +8868,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564438691342</updated>
-      <workItem from="1564438694292" duration="4112000" />
+      <workItem from="1564438694292" duration="4620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4112000" />
+    <option name="totallyTimeSpent" value="4620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -8903,15 +8907,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="143" column="18" lean-forward="true" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        <state relative-caret-position="402">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
